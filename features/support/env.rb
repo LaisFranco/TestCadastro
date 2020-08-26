@@ -3,9 +3,8 @@ require "yaml"
 require "pry"
 require "capybara/cucumber"
 require "site_prism"
-#require 'page-object'
 require "capybara"
-require "report_builder"
+#require "report_builder"
 require "faker"
 require "cpf_faker"
 
