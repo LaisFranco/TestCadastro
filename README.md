@@ -35,7 +35,8 @@ https://code.visualstudio.com/
     Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
 
 ChromeDriver https://chromedriver.chromium.org/
-GeckoDriver https://github.com/mozilla/geckodriver
+
+GeckoDriver https://github.com/mozilla/geckodriver/releases
 
     Copie o projeto
 

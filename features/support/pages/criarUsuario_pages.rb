@@ -47,7 +47,8 @@ end
 
 def botao_criar
 
-  find(class: 'actions btn waves-effect green').click
+  find(class: 'actions btn waves-effect green', match: :first).click
+ #find(:xpath , ' /html/body/div[2]/div[2]/div[3]/div[2]/form/div[6]/div/div/input').click
 
 end
 
