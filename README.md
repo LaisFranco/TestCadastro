@@ -24,3 +24,51 @@ Requerimento
     SitePrism Gem SitePrism
     Faker Gem Faker
     Cpf_faker Gem Cpf_faker
+
+# Instruções de instalação
+
+    Instalar o Visual Studio
+
+https://code.visualstudio.com/
+
+    Instalar o driver do Chrome ou Firefox Windows: Baixar o arquivo e extrair na pasta C:/windows
+    Mac e Linux: Extrair dentro da pasta USR/LOCAL/BIN
+
+ChromeDriver https://chromedriver.chromium.org/
+GeckoDriver https://github.com/mozilla/geckodriver
+
+    Copie o projeto
+
+git clone https://github.com/LaisFranco/TestCadastro.git
+
+Dentro da pasta criada abra o terminal e digite:
+
+Através do CMD dentro da pasta raiz do projeto execute
+
+    Instalar bundler
+
+gem install bundler
+
+    Instalar dependências
+
+bundle install
+
+Instruções de execução
+
+Use os comandos listados abaixo no CMD diretamente na pasta raiz.
+No VSCode abra a pasta raiz, acesse o terminal e execute os comandos listados abaixo.
+Execute todos os testes com o navegador padrão "Chrome"
+
+cucumber
+
+Execute todos os testes com o navegador Firefox
+
+cucumber -p firefox
+
+Execute todos os testes com o modo headless do navegador Chrome
+
+cucumber -p chrome_headless
+
+Execute todos os testes com o modo headless do navegador Firefox
+
+cucumber -p firefox_headless
