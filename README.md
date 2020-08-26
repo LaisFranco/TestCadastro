@@ -62,14 +62,14 @@ Execute todos os testes com o navegador padrão "Chrome"
 
 cucumber
 
+cucumber -p chrome
+
 Execute todos os testes com o navegador Firefox
 
 cucumber -p firefox
 
 Execute todos os testes com o modo headless do navegador Chrome
 
-cucumber -p chrome_headless
+cucumber -p headless
 
-Execute todos os testes com o modo headless do navegador Firefox
 
-cucumber -p firefox_headless
